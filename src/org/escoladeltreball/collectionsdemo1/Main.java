@@ -18,7 +18,6 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
 		List<String> list = new ArrayList();
 		
 		list.add("Alpha");

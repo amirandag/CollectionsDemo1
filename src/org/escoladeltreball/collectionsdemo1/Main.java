@@ -13,6 +13,10 @@ import java.util.List;
  */
 public class Main {
 
+	public static List<String> subLlista(String expresion) {
+		return null;
+	}
+	
 	/**
 	 * @param args
 	 */
@@ -26,6 +30,8 @@ public class Main {
 		list.add("Echo");
 		list.add("Delta");
 		list.add("Zulu");
+		list.add("Albacete");
+		list.add("Alava");
 
 		list.remove("Charlie");
 		

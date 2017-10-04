@@ -17,6 +17,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		// LinkedList es mas eficiente que ArrayList
 		List<String> list = new LinkedList<>();
 		
 		list.add("Alpha");

@@ -13,8 +13,14 @@ import java.util.List;
  */
 public class Main {
 
-	public static List<String> subLlista(String expresion) {
-		return null;
+	public static List<String> subLlista(List<String> list, String expresion) {
+		List<String> subList = new LinkedList<>();
+		for (String string: list) {
+			if (string.matches("^" + expresion + ".*")) {
+				subList.add(string);
+			}
+		}
+		return subList;
 	}
 	
 	/**
@@ -41,6 +47,13 @@ public class Main {
 			System.out.println(string);
 		}
 		
+		System.out.println("-----------------");
+		
+		List<String> subLlista = subLlista(list, "Al");
+		
+		for (String string: subLlista) {
+			System.out.println(string);
+		}
 	}
 
 }
